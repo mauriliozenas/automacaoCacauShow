@@ -12,6 +12,8 @@ import cucumber.api.junit.Cucumber;
 				"html:Reports/cucumber" }, tags = { "~@ignore", "@geral" })
 
 public class Runner {
+	
+	// Classe Runner para teste;
 
 	@AfterClass
 	public static void encerrarTeste() {
